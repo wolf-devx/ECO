@@ -37,7 +37,7 @@ const Faq = () => {
             <summary className="font-semibold cursor-pointer text-lg text-gray-800 dark:text-gray-100 group-open:mb-2">
               {faq.question}
             </summary>
-            <p className="text-gray-600 dark:text-gray-300 mt-2">{faq.answer}</p>
+            <p className="text-gray-600 dark:text-gray-300 mt-2 text-[#BDBDBD] dark:text-[#B2DFDB]">{faq.answer}</p>
           </details>
         ))}
       </div>

@@ -38,7 +38,7 @@ const HelpCenter = () => {
           <Link key={index} href={topic.href} className="block">
             <div className="border border-gray-200 dark:border-gray-700 rounded-xl p-6 hover:shadow-md transition">
               <h2 className="text-xl font-semibold mb-2 text-foreground">{topic.title}</h2>
-              <p className="text-sm text-gray-600 dark:text-gray-300">{topic.description}</p>
+              <p className="text-sm text-gray-600 dark:text-gray-300 text-[#BDBDBD] dark:text-[#B2DFDB]">{topic.description}</p>
             </div>
           </Link>
         ))}

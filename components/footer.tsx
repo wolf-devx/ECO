@@ -13,7 +13,7 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-muted/50 border-t">
+    <footer className="bg-muted/50 border-t dark:bg-[#1E1E1E]">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo e Descrição */}
@@ -35,7 +35,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/sobre"
-                  className="text-muted-foreground hover:text-primary transition-colors text-[#0277BD] dark:text-[#4FC3F7]"
+                  className="text-[#0277BD] dark:text-[#4FC3F7] hover:text-black dark:hover:text-white transition-colors"
                 >
                   Sobre Nós
                 </Link>
@@ -43,7 +43,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/jogos"
-                  className="text-muted-foreground hover:text-primary transition-colors text-[#0277BD] dark:text-[#4FC3F7]"
+                  className="text-[#0277BD] dark:text-[#4FC3F7] hover:text-black dark:hover:text-white transition-colors"
                 >
                   Jogos
                 </Link>
@@ -51,7 +51,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/denuncia/nova"
-                  className="text-muted-foreground hover:text-primary transition-colors text-[#0277BD] dark:text-[#4FC3F7]"
+                  className="text-[#0277BD] dark:text-[#4FC3F7] hover:text-black dark:hover:text-white transition-colors"
                 >
                   Fazer Denúncia
                 </Link>
@@ -66,7 +66,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/ajuda"
-                  className="text-muted-foreground hover:text-primary transition-colors text-[#0277BD] dark:text-[#4FC3F7]"
+                  className="text-[#0277BD] dark:text-[#4FC3F7] hover:text-black dark:hover:text-white transition-colors"
                 >
                   Central de Ajuda
                 </Link>
@@ -74,7 +74,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/politica-privacidade"
-                  className="text-muted-foreground hover:text-primary transition-colors text-[#0277BD] dark:text-[#4FC3F7]"
+                  className="text-[#0277BD] dark:text-[#4FC3F7] hover:text-black dark:hover:text-white transition-colors"
                 >
                   Política de Privacidade
                 </Link>
@@ -82,7 +82,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/termos-servico"
-                  className="text-muted-foreground hover:text-primary transition-colors text-[#0277BD] dark:text-[#4FC3F7]"
+                  className="text-[#0277BD] dark:text-[#4FC3F7] hover:text-black dark:hover:text-white transition-colors"
                 >
                   Termos de Serviço
                 </Link>
@@ -90,7 +90,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/faq"
-                  className="text-muted-foreground hover:text-primary transition-colors text-[#0277BD] dark:text-[#4FC3F7]"
+                  className="text-[#0277BD] dark:text-[#4FC3F7] hover:text-black dark:hover:text-white transition-colors"
                 >
                   FAQ
                 </Link>
