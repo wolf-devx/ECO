@@ -58,8 +58,8 @@ export default function ListaJogos() {
 
   return (
     <div className="container mx-auto px-4 py-12">
-      <h1 className="text-4xl font-bold mb-8 text-center">Nossos Jogos</h1>
-      <p className="text-lg text-center mb-12 max-w-3xl mx-auto">
+      <h1 className="text-4xl font-bold mb-8 text-center dark:text-[#E0F2F1]">Nossos Jogos</h1>
+      <p className="text-lg text-center mb-12 max-w-3xl mx-auto dark:text-[#B2DFDB]">
         Explore nossa coleção de jogos educativos sobre meio ambiente e sustentabilidade. Divirta-se enquanto aprende
         sobre como proteger nosso planeta.
       </p>
@@ -90,7 +90,7 @@ export default function ListaJogos() {
               <p>{jogo.descricao}</p>
             </CardContent>
             <CardFooter>
-              <div className="text-sm text-muted-foreground">Disponível para download</div>
+              <div className="text-sm text-muted-foreground dark:text-[#B2DFDB]">Disponível para download</div>
             </CardFooter>
           </Card>
         ))}

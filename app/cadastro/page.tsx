@@ -155,7 +155,7 @@ export default function Cadastro() {
               </div>
             </div>
 
-            <Button type="submit" className="w-full" disabled={isLoading}>
+            <Button type="submit" className="w-full bg-[#2E7D32] text-white hover:bg-[#A5D6A7]" disabled={isLoading} >
               {isLoading ? "Criando conta..." : "Criar Conta"}
             </Button>
           </form>
@@ -163,7 +163,7 @@ export default function Cadastro() {
         <CardFooter className="flex justify-center">
           <p className="text-sm text-muted-foreground">
             Já tem uma conta?{" "}
-            <Link href="/login" className="text-primary hover:underline">
+            <Link href="/login" className="text-primary hover:underline text-[#0277BD] dark:text-[#4FC3F7] transition-colors">
               Faça login
             </Link>
           </p>

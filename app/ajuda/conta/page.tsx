@@ -2,7 +2,7 @@
 export default function AjudaContaPage() {
   return (
     <main className="max-w-3xl mx-auto px-4 py-16">
-      <h1 className="text-3xl font-bold mb-6">Ajuda com Conta e Acesso</h1>
+      <h1 className="text-3xl font-bold mb-6 ">Ajuda com Conta e Acesso</h1>
       <ul className="space-y-4 text-gray-700 dark:text-gray-300">
         <li>
           <strong>Como me cadastro?</strong><br />
