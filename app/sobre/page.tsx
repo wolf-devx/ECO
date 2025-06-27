@@ -9,11 +9,11 @@ export default function Sobre() {
         <h2 className="text-2xl font-semibold mb-4 dark:text-[#E0F2F1]">Nossa História</h2>
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
-            <p className="text-lg mb-4 dark:text-[#B2DFDB]">
+            <p className="text-lg mb-4 text-[#BDBDBD] dark:text-[#E0F2F1]">
               Fundada em 2025, a Eco nasceu da paixão de um grupo universitarios, desenvolvedores de software, que
               acreditavam no poder da tecnologia para promover mudanças positivas.
             </p>
-            <p className="text-lg dark:text-[#B2DFDB]">
+            <p className="text-lg text-[#BDBDBD] dark:text-[#E0F2F1]">
               Nossa jornada começou de uma simples ideia, cria um site de denúncias ambientais e evoluiu para uma plataforma
               completa que também utiliza jogos educativos para conscientizar sobre questões ambientais.
             </p>

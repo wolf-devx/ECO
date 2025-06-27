@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="container mx-auto px-4 py-8">
       {/* Seção de destaque */}
-      <section className="bg-[#F5F5F5] dark:bg-[#121212] py-12 md:py-20">
+      <section className="bg-[#F5F5F5] dark:bg-[#121212] py-12 md:py-20 bg-[#F5F5F5] dark:bg-[#1E1E1E]">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 text-[#212121] dark:text-[#E0F2F1]">
             Bem-vindo à Eco

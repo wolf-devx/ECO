@@ -20,7 +20,7 @@ export default function Contato() {
                 <CardTitle className="text-xl dark:text-[#E0F2F1]">Telefone</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg dark:text-[#B2DFDB]">(11) 99999-8888</p>
+                <p className="text-lg text-[#BDBDBD] dark:text-[#E0F2F1]">(11) 99999-8888</p>
               </CardContent>
             </Card>
 
@@ -30,7 +30,7 @@ export default function Contato() {
                 <CardTitle className="text-xl dark:text-[#E0F2F1]">E-mail</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg dark:text-[#B2DFDB]">eco@empresa.com</p>
+                <p className="text-lg text-[#BDBDBD] dark:text-[#E0F2F1]">eco@empresa.com</p>
               </CardContent>
             </Card>
 
@@ -40,8 +40,8 @@ export default function Contato() {
                 <CardTitle className="text-xl dark:text-[#E0F2F1]">Endereço</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg dark:text-[#B2DFDB]">Av. Paulista, 1000</p>
-                <p className="text-lg dark:text-[#B2DFDB]">São Paulo - SP</p>
+                <p className="text-lg text-[#BDBDBD] dark:text-[#E0F2F1]">Av. Paulista, 1000</p>
+                <p className="text-lg text-[#BDBDBD] dark:text-[#E0F2F1]">São Paulo - SP</p>
               </CardContent>
             </Card>
           </div>
