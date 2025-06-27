@@ -80,7 +80,7 @@ export default function Login() {
             <div className="space-y-2">
               <div className="flex items-center justify-between">
                 <Label htmlFor="password">Senha</Label>
-                <Link href="#" className="text-sm text-primary hover:underline">
+                <Link href="#" className="text-sm hover:underline  hover:underline text-[#0277BD] dark:text-[#4FC3F7] transition-colors">
                   Esqueceu a senha?
                 </Link>
               </div>
@@ -95,7 +95,7 @@ export default function Login() {
               />
             </div>
 
-            <Button type="submit" className="w-full" disabled={isLoading}>
+            <Button type="submit" className="w-full bg-[#2E7D32] text-white hover:bg-[#A5D6A7]" disabled={isLoading}>
               {isLoading ? "Entrando..." : "Entrar"}
             </Button>
           </form>
@@ -103,7 +103,7 @@ export default function Login() {
         <CardFooter className="flex justify-center">
           <p className="text-sm text-muted-foreground">
             Não tem uma conta?{" "}
-            <Link href="/cadastro" className="text-primary hover:underline">
+            <Link href="/cadastro" className="hover:underline text-[#0277BD] dark:text-[#4FC3F7] transition-colors">
               Cadastre-se
             </Link>
           </p>
