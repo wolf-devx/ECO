@@ -1,10 +1,16 @@
-import Link from "next/link"
-import { Leaf, Mail, Phone, MapPin } from "lucide-react"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faTwitter, faInstagram, faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import Link from "next/link";
+import { Leaf, Mail, Phone, MapPin } from "lucide-react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebookF,
+  faTwitter,
+  faInstagram,
+  faGithub,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
 
 export function Footer() {
-  const currentYear = new Date().getFullYear()
+  const currentYear = new Date().getFullYear();
 
   return (
     <footer className="bg-muted/50 border-t">
@@ -17,7 +23,8 @@ export function Footer() {
               <span className="text-xl font-bold">Eco</span>
             </Link>
             <p className="text-sm text-muted-foreground">
-              Promovendo sustentabilidade e responsabilidade social através de tecnologia e educação.
+              Promovendo sustentabilidade e responsabilidade social através de
+              tecnologia e educação.
             </p>
           </div>
 
@@ -26,17 +33,26 @@ export function Footer() {
             <h3 className="font-semibold mb-4">Links Rápidos</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/sobre" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link
+                  href="/sobre"
+                  className="text-muted-foreground hover:text-primary transition-colors text-[#0277BD] dark:text-[#4FC3F7]"
+                >
                   Sobre Nós
                 </Link>
               </li>
               <li>
-                <Link href="/jogos" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link
+                  href="/jogos"
+                  className="text-muted-foreground hover:text-primary transition-colors text-[#0277BD] dark:text-[#4FC3F7]"
+                >
                   Jogos
                 </Link>
               </li>
               <li>
-                <Link href="/denuncia/nova" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link
+                  href="/denuncia/nova"
+                  className="text-muted-foreground hover:text-primary transition-colors text-[#0277BD] dark:text-[#4FC3F7]"
+                >
                   Fazer Denúncia
                 </Link>
               </li>
@@ -48,22 +64,34 @@ export function Footer() {
             <h3 className="font-semibold mb-4">Suporte</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/ajuda" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link
+                  href="/ajuda"
+                  className="text-muted-foreground hover:text-primary transition-colors text-[#0277BD] dark:text-[#4FC3F7]"
+                >
                   Central de Ajuda
                 </Link>
               </li>
               <li>
-                <Link href="/politica-privacidade" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link
+                  href="/politica-privacidade"
+                  className="text-muted-foreground hover:text-primary transition-colors text-[#0277BD] dark:text-[#4FC3F7]"
+                >
                   Política de Privacidade
                 </Link>
               </li>
               <li>
-                <Link href="/termos-servico" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link
+                  href="/termos-servico"
+                  className="text-muted-foreground hover:text-primary transition-colors text-[#0277BD] dark:text-[#4FC3F7]"
+                >
                   Termos de Serviço
                 </Link>
               </li>
               <li>
-                <Link href="/faq" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link
+                  href="/faq"
+                  className="text-muted-foreground hover:text-primary transition-colors text-[#0277BD] dark:text-[#4FC3F7]"
+                >
                   FAQ
                 </Link>
               </li>
@@ -73,7 +101,15 @@ export function Footer() {
           {/* Sociais */}
           <div>
             <h3 className="font-semibold mb-4">Siga-nos nas redes</h3>
-            <ul className="wrapper" style={{ listStyle: 'none', padding: 0, display: 'flex', gap: '10px' }}>
+            <ul
+              className="wrapper"
+              style={{
+                listStyle: "none",
+                padding: 0,
+                display: "flex",
+                gap: "10px",
+              }}
+            >
               <li>
                 <a
                   href="https://facebook.com"
@@ -137,17 +173,25 @@ export function Footer() {
 
         {/* Copyright */}
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-          <p className="text-sm text-muted-foreground">© {currentYear} Projeto Eco. Todos os direitos reservados.</p>
+          <p className="text-sm text-muted-foreground">
+            © {currentYear} Projeto Eco. Todos os direitos reservados.
+          </p>
           <div className="flex space-x-4 text-sm">
-            <Link href="/termos-servico" className="text-muted-foreground hover:text-primary transition-colors">
+            <Link
+              href="/termos-servico"
+              className="text-muted-foreground hover:text-primary transition-colors"
+            >
               Termos de Serviço
             </Link>
-            <Link href="/politica-privacidade" className="text-muted-foreground hover:text-primary transition-colors">
+            <Link
+              href="/politica-privacidade"
+              className="text-muted-foreground hover:text-primary transition-colors"
+            >
               Privacidade
             </Link>
           </div>
         </div>
       </div>
     </footer>
-  )
+  );
 }
